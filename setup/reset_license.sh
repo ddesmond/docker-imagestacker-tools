@@ -18,3 +18,8 @@ echo " ------------------------------------------- "
 echo " ------------------------------------------- "
 echo "IS_LICENSE_KEY" $IS_LICENSE_KEY
 echo " ------------------------------------------- "
+
+
+# copy license file back to network shares
+
+cp *.lic /outputs/
