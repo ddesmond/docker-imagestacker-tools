@@ -5,6 +5,9 @@ curl https://emildohne.com/
 
 ./ImageStackerCLI --help
 
+echo " ------------------------------------------- "
+echo "IS_LICENSE_KEY" $IS_LICENSE_KEY
+echo " ------------------------------------------- "
 ./ImageStackerCLI --activate-offline $IS_LICENSE_KEY
 
 
