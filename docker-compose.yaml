@@ -7,7 +7,7 @@ services:
     build: .
     environment:
       - NVIDIA_VISIBLE_DEVICES=all
-      - IS_LICENSE_KEY=desdes
+      - IS_LICENSE_KEY=newkey
     ports:
       - 3000:3000
     deploy:
