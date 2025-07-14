@@ -2,5 +2,9 @@
 
 apt update -y
 
-apt install git zip nano plocate wget busybox neofetch -y
+apt install git zip \
+    nano plocate wget \
+    busybox \
+    libtbb-dev neofetch -y
+
 
