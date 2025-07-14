@@ -1,6 +1,8 @@
 FROM ubuntu:latest
 LABEL authors="aleks"
 
+ENV IS_LICENSE_KEY="EXPORT_YOUR_LICENSE_KEY"
+
 
 COPY setup /setup
 
