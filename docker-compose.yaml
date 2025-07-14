@@ -1,0 +1,21 @@
+version: "1"
+
+services:
+  comfyui:
+    container_name: is-tools
+    hostname: imagestacker-tools
+    build: .
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    ports:
+      - 3000:3000
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    volumes:
+      - ./outputs:/outputs
+      - ./data:/data
