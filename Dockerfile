@@ -9,8 +9,8 @@ RUN /setup/install.sh
 
 RUN /setup/setup_imagestacker.sh
 
-RUN /setup/reset_license.sh
+# RUN /setup/reset_license.sh
 
 
 
-ENTRYPOINT ["top", "-b"]
+ENTRYPOINT ["bash", "-c", "/setup/reset_license.sh"]
