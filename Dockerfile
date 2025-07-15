@@ -1,6 +1,8 @@
 FROM ubuntu:latest
 LABEL authors="aleks"
 
+ENV RESETID=10
+
 COPY setup /setup
 
 RUN chmod +x /setup/*
