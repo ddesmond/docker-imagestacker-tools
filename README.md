@@ -1,4 +1,4 @@
-### ImageStacker auto license retrieve tool
+### ImageStacker auto license tool
 
 #### Add the license key in docker compose and run it with:
 `docker compose up`
