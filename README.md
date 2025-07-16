@@ -8,4 +8,4 @@ wait the output on the output folder.
 If you need to pass files ./data is also mounted trough docker compose
 
 
-Ubuntu latest, imagestacker 1.30
+Ubuntu latest, imagestacker 1.3
